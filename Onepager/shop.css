@@ -63,6 +63,15 @@ section p {
 }
 
 footer {
-    text-align: right;
+    text-align: center;
     margin-right: 10px;
+}
+
+@media screen and (min-width:850px) {
+    h1 {
+        text-align: left;
+    }
+    
+    section {
+    }
 }
