@@ -21,14 +21,21 @@ header {
     padding: 20px;
 }
 
+div {
+    display: flex;
+    justify-content: center;
+    
+}
+
 section {
     background-color: white;
     color: #000;
-    max-width: 500px;
+    max-width: 47%;
     margin: 20px auto;
     padding: 10px 20px; 
     border-radius: 5px;
-    box-shadow: 5px 5px 10px rgba(200,200,200,1.7)
+    box-shadow: 5px 5px 10px rgba(200,200,200,1.7);
+    flex-basis: 100%;    
 }
 
 h1 {
@@ -67,11 +74,16 @@ footer {
     margin-right: 10px;
 }
 
+#flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
 @media screen and (min-width:850px) {
     h1 {
         text-align: left;
     }
     
-    section {
-    }
 }
